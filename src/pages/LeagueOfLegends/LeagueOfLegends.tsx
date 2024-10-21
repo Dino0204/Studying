@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import styles from './styles/LeagueOfLegends.module.scss'
 import axios from "axios";
 
-import ChampionList from "../../components/ChampionList";
+import ChampionList from "../../components/ChampionList/ChampionList";
 import { ChampionData } from "../../type/type";
 
 function LeagueOfLegends() {
@@ -27,7 +28,7 @@ function LeagueOfLegends() {
   const championsArray = champions ? Object.values(champions.data) : [];
 
   return (
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       {championsArray.map((champion) => (
         <ChampionList key={champion.id} champion={champion} />
       ))}

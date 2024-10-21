@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import styles from './styles/Index.module.scss'
 import axios from 'axios'
 
-import UserList from '../../components/UserList'
+import UserList from '../../components/UserList/UserList'
 import { USER } from '../../type/type'
 
 function Index() {

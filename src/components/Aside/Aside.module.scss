@@ -1,0 +1,18 @@
+.sidebar{
+  grid-area: b;
+
+  display: flex;
+  flex-direction: column;
+  
+  background-color: white;
+
+  font-weight: 700;
+  color: rgb(57, 57, 57);
+  
+  height: 100%;
+
+  &_aside{
+    width: 100%;
+    background-color: rgba(1,1,1,0.3);
+  }
+}

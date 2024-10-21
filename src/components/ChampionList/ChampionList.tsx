@@ -1,5 +1,5 @@
-import styles from './styles/ChampionList.module.scss'
-import { Champion } from '../type/type'
+import styles from './ChampionList.module.scss'
+import { Champion } from '../../type/type'
 
 interface ChampionListProps {
   champion: Champion,
