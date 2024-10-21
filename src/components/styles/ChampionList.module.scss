@@ -1,0 +1,18 @@
+.card{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 10px;
+  background-color: rgb(25, 137, 217);
+
+  img{
+    width: 30px;
+    height: 30px;
+  }
+
+  span{
+    color: whitesmoke;
+    font-weight: 700;
+  }
+}

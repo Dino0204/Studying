@@ -1,5 +1,5 @@
-import { USER } from '../type/type'
 import styles from './styles/UserList.module.scss'
+import { USER } from '../type/type'
 
 interface UserListProps {
   user: USER;

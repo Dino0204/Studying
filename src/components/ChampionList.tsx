@@ -1,0 +1,22 @@
+import styles from './styles/ChampionList.module.scss'
+import { Champion } from '../type/type'
+
+interface ChampionListProps {
+  champion: Champion,
+}
+
+const ChampionList = ({ champion }: ChampionListProps) => {
+
+  const path = `https://ddragon.leagueoflegends.com/cdn/14.20.1/img/champion/${champion.id}.png`
+
+
+
+  return (
+    <div className={styles.card}>
+      <img src={path} alt="image" />
+      <span>{champion.name}</span>
+    </div>
+  )
+}
+
+export default ChampionList

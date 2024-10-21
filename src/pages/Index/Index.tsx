@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { USER } from '../../type/type'
 import styles from './styles/Index.module.scss'
-import UserList from '../../components/UserList'
 import axios from 'axios'
+
+import UserList from '../../components/UserList'
+import { USER } from '../../type/type'
 
 function Index() {
   const [users, setUsers] = useState<USER[]>([])
@@ -12,7 +13,6 @@ function Index() {
       .then((res) => {
         console.log('응답 성공 :', res)
         setUsers(res.data)
-        //console.log('유저:', users)
       })
       .catch((error) => {
         console.log('에러 발생 :', error)
