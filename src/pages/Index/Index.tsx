@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { USER } from '../type/type'
+import { USER } from '../../type/type'
 import styles from './styles/Index.module.scss'
-import UserList from '../components/UserList'
+import UserList from '../../components/UserList'
 import axios from 'axios'
 
 function Index() {
