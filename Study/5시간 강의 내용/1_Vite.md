@@ -1,4 +1,4 @@
-# Vite JS
+# 1. Vite JS
 
 [Vite JS 시작하기](https://ko.vitejs.dev/guide/)
 
@@ -35,6 +35,7 @@
 - 참고**linting** : 잠재적 에러를 방지하기 위한 코드 분석 프로그램 실행 과정**testing** : 작성한 코드가 의도대로 동작하는지, 오류는 없는지 확인하는 과정
 
 > WebPack
+>
 > 여러 파일을 합쳐주는 Js 번들러
 
 WebPack은 왜 필요할까?

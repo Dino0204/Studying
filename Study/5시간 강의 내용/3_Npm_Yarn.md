@@ -1,8 +1,12 @@
-## Npm
+# 3. Npm & Yarn
 
 ---
 
 [내 블로그](https://velog.io/@dino0204/React-%EA%B3%B5%EB%B6%803)
+
+## Npm
+
+---
 
 Node Package Manager 노드 패키지 관리자 : 전역적임
 
