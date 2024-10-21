@@ -1,0 +1,28 @@
+.page{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-areas: 
+  "a a"
+  "b c";
+
+  width: 100vw;
+
+  &_header{
+    grid-area: a;
+    width: 100%;
+  }
+  
+  
+  &_sidebar{
+    grid-area: b;
+    
+    background-color: red;
+    
+    width: 100px;
+    height: 100%;
+  }
+
+  &_main{
+    grid-area: c;
+  }
+}

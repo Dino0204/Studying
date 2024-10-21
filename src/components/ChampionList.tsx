@@ -7,6 +7,7 @@ interface ChampionListProps {
 
 const ChampionList = ({ champion }: ChampionListProps) => {
 
+  // 챔프 이미지 경로
   const path = `https://ddragon.leagueoflegends.com/cdn/14.20.1/img/champion/${champion.id}.png`
 
 

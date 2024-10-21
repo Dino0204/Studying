@@ -12,7 +12,7 @@ function LeagueOfLegends() {
       .get("https://ddragon.leagueoflegends.com/cdn/13.12.1/data/ko_KR/champion.json")
       .then((res) => {
         //console.log("롤 응답 성공:", res);
-        setChampions(res.data); // 전체 ChampionData 객체를 상태에 설정
+        setChampions(res.data); // ChampionData 객체
       })
       .catch((error) => {
         console.log("롤 응답 실패:", error);
